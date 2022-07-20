@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.match_card{
+width: 312px;
+height: 190px;
+left: 476px;
+top: 826px;
+border: 1px solid black;
+
+}
+.match_img{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.match_time h4{
+    text-align: center;
+}
+.match_time p{
+    text-align: center;
+}

@@ -78,35 +78,35 @@ top: 83px;
 
 
 .upcoming{
-color:white;
-width: 252px;
-height: 64px;
-left: 170px;
-top: 856px;
+  margin-top: 50px;
+  padding: 16px 25px;
+  background: #DD0000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
 margin: 30px 30px 30px 30px;
 background: #FFFFFF;
-border-radius: 10px;
 text-align: center;
-font-weight: 600;
+;
 font-size: 20px;
 line-height: 30px;
 }
 
 #blog{
     background: #DD0000;
-    text-align: center;
-    font-weight: 600;
   
 }
-.upcoming a{
+.card a{
     margin-top: 50px;
+    margin-bottom: 50px;
     text-decoration: none;
     padding: 20px 20px 20px 20px;
     justify-items: center;
     font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #161616;
+    font-size: 16px;
+    line-height: 30px;
+    color: #161616;
 
 }
 .Second_part{
@@ -129,17 +129,19 @@ color: #161616;
     border-radius: 8px;
     position: relative;
     padding: 10px;
+    margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
 
 }
+ .card_1 p{
+  margin-top: 50px;
+ }
 
-.card_1 {
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    width: 300px;
-  }
+
   .container {
     display: flex;
     width: 1040px;
@@ -160,25 +162,22 @@ color: #161616;
     min-height: 250px;
   }
   
+  .card-body h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .tag {
-    background: #cccccc;
-    border-radius: 50px;
-    font-size: 12px;
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 13px;
     margin: 0;
-    color: #fff;
+    color: rgb(17, 13, 13);
     padding: 2px 10px;
     text-transform: uppercase;
     cursor: pointer;
   }
-  .tag-teal {
-    background-color: #47bcd4;
-  }
-  .tag-purple {
-    background-color: #5e76bf;
-  }
-  .tag-pink {
-    background-color: #cd5b9f;
-  }
+  
   
   .card-body p {
     font-size: 13px;
@@ -209,17 +208,33 @@ footer{
     height: 250px;
     color: white;
     margin-top: 100px;
+
 }
-footer h3{
+footer h2{
     text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
 
 }
   .goal{
-  display: grid;
-  grid-template-columns:repeat(3, 1fr) ;
-  width: 100px;
-  height: 100px;
+ display: flex;
+  gap: 20px;
   padding: 5px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 
   }
+  .icon{
+    display: flex;
+    gap: 20px;
+  }
+
+  .icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  
