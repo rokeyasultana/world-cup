@@ -29,7 +29,9 @@ font-weight: 700;
 font-size: 70px;
 line-height: 80px;
 color: #FFFFFF;
+
 }
+
 
 .banner p{
   font-family: 'Poppins';
@@ -65,6 +67,16 @@ font-weight: 500;
 height: 613px;
 left: 801px;
 top: 83px;
+
+}
+.banner img:hover{
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+
+
+
+
 }
 
 .card{
@@ -237,4 +249,3 @@ footer h2{
     font-size: 30px;
   }
 
-  
