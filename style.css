@@ -4,6 +4,67 @@
     padding: 0;
     justify-content: center;
     justify-items: center;
+
+}
+
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ 
+width: 1321px;
+height: 646px;
+left: 140px;
+top: 50px;
+margin-left: 100px;
+margin-right: 100px;
+background: #161616;
+border-radius: 30px;
+margin-bottom: 80px;
+}
+
+.banner h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 80px;
+color: #FFFFFF;
+}
+
+.banner p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 40px;
+
+}
+
+.banner a{
+width: 187px;
+gap: 10px;
+margin-top: 50px;
+padding: 16px 25px;
+background: #DD0000;
+border-radius: 5px;
+text-decoration: none;
+color: white;
+font-weight: 500;
+}
+.header{
+  padding-left: 106px;
+  padding-top: 111px;
+  padding-bottom: 111px;
+
+}
+
+.banner img{
+  width: 581px;
+height: 613px;
+left: 801px;
+top: 83px;
 }
 
 .card{
@@ -40,6 +101,13 @@ line-height: 30px;
 .upcoming a{
     margin-top: 50px;
     text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    justify-items: center;
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #161616;
+
 }
 .Second_part{
     display: grid;
@@ -63,11 +131,7 @@ line-height: 30px;
     padding: 10px;
 
 }
-@media screen and (max-width:1100px) {
-    .card-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+
 .card_1 {
     margin: 10px;
     background-color: #fff;
@@ -123,6 +187,7 @@ line-height: 30px;
   .user {
     display: flex;
     margin-top: auto;
+
   }
   
   .user img {
@@ -137,5 +202,24 @@ line-height: 30px;
   .user-info small {
     color: #545d7a;
   }
+/* footer */
+footer{
+    text-align: center;
+    background-color: #121212;
+    height: 250px;
+    color: white;
+    margin-top: 100px;
+}
+footer h3{
+    text-align: center;
 
-  
+}
+  .goal{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr) ;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  text-align: center;
+
+  }
