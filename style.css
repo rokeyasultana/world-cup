@@ -67,13 +67,13 @@ font-weight: 500;
 height: 613px;
 left: 801px;
 top: 83px;
-
+transition: transform .5s ease;
 }
 .banner img:hover{
   filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -webkit-transition: all 1s ease;
-
+transform: scale(1.1);
 }
 
 .card{
