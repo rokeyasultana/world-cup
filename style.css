@@ -244,7 +244,7 @@ footer h2{
 
   #responsibe-banner{
    width: 334px;
-   height: 700px;
+   height: 1000px;
    left: 21px;
    background: #161616;
    border-radius: 10px;
@@ -281,28 +281,31 @@ color: rgba(255, 255, 255, 0.8);
   }
   
   .banner a{
-padding: 8px 12px;
-gap: 10px;
-width: 161px;
+ width: 161px;
 height: 40px;
-color: #FFFFFF;
+gap: 5px;
+margin-top: 50px;
+padding: 8px 12px;
 background: #DD0000;
 border-radius: 5px;
-
+text-decoration: none;
+color: white;
+font-weight: 500;
   }
   .header{
-    padding-left: 106px;
-    padding-top:px;
-    padding-bottom: 111px;
+    padding-left: 100px;
+    padding-top:
+    38px;
+    padding-bottom: 28px;
   
   }
   
   .banner img{
-    position: absolute;
+  margin-top: 134px;
   width: 581px;
-  height: 613px;
+  height: 400px;
   left: 801px;
-  top: 83px;
+
   transition: transform .5s ease;
   margin: 0 auto;
   }
@@ -320,17 +323,18 @@ border-radius: 5px;
     position: absolute;
     width: 233px;
     height: 245px;
-    left: 84px;
+    left: 124px;
     top: 271px;
-    
+    margin: auto;
+    display: block;
   
   }
   .banner p{
-  font-family: 'Poppins';
+ 
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 20px;
   color: #FFFFFF;
   margin-bottom: 40px;
   
@@ -339,7 +343,7 @@ border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
-    margin-top: 500px;
+  
   }
 
   .container{
